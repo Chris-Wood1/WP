@@ -1,0 +1,20 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#holder {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 200px 200px 200px;
+  column-gap: 10px;
+}
+
+.gi {
+  font-size: small;
+  width: 250px;
+  height: 250px;
+}
+.gi img {
+  width: 250px;
+}

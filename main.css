@@ -1,0 +1,95 @@
+
+/* color pallet */
+/* https://coolors.co - fiery ocean */ 
+/* red-brown  780000, red: c1121f tan: fdf0d5, dark blue: 003049 light blue: 669bbc */
+
+body {
+  max-width: 900px;
+  font-family: "Roboto", sans-serif;
+  margin: 50px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('images/Stars1.jpg');
+  background-size: auto;
+  opacity: 0.45; /* Adjust for desired transparency */
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.intro {
+  font-family: "Merienda", cursive;
+  color: blue;
+  text-align: center;
+}
+
+.mainItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.selection {
+  width: 225px;
+  height: 150px;
+  border: 2.5px solid gray;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selection img {
+  width: 120px;
+  height: 120px;
+  margin: 0 100px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.selection a h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.padded {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+footer {
+  padding-left: 15px;
+}
+
+#credits {
+  font-size: .7em;
+}
+
+#credits h5 {
+  margin: 50px 0 5px 0;
+}
+
+#other
+{
+  margin-top: 20px;
+}
+
+.smfnt {
+  font-size: smaller;
+}
