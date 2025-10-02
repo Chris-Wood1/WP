@@ -4,7 +4,7 @@
 /* red-brown  780000, red: c1121f tan: fdf0d5, dark blue: 003049 light blue: 669bbc */
 
 body {
-  max-width: 900px;
+  
   font-family: "Roboto", sans-serif;
   margin: 50px;
 }
@@ -35,6 +35,7 @@ body {
 }
 
 .mainItems {
+  max-width: 900px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -42,7 +43,7 @@ body {
 
 .selection {
   width: 225px;
-  height: 150px;
+  height: 160px;
   border: 2.5px solid gray;
   border-radius: 10px;
 
@@ -52,11 +53,15 @@ body {
   align-items: center;
 }
 
-.selection img {
-  width: 120px;
-  height: 120px;
+.simg {
+  width: 130px;
+  height: 130px;
   margin: 0 100px;
 }
+
+.selection h3 {
+    margin-top: 0;
+  }
 
 .link {
   text-decoration: none;
@@ -92,4 +97,72 @@ footer {
 
 .smfnt {
   font-size: smaller;
+}
+
+@media (min-width: 431px) and (orientation: portrait) {
+
+  .selection {
+    width: 220px;
+    margin-bottom: 10px;
+  }
+
+  .selImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  h4 {
+    color: brown;
+  }
+
+}
+
+@media (min-width: 391px) and (max-width: 430px) and (orientation: portrait) {
+
+  .selection {
+    width: 190px;
+    margin-bottom: 10px;
+  }
+
+  .sing {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .selection h3 {
+    margin-top: 0;
+    font-size: 0.95em;
+  }
+
+  h4 {
+    color: orange;
+  }
+
+}
+
+
+@media (max-width: 390px) and (orientation: portrait) {
+
+  .selection {
+    width: 180px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+
+  .simg {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .selection h3 {
+    margin-top: 0;
+    font-size: 0.85em;
+  }
+
+  h4 {
+    color: red;
+  }
+ 
 }
